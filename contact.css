@@ -1,0 +1,96 @@
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+header .logo img {
+    height: 50px;
+    width: 80px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+
+.social-container {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 40px; 
+    margin-top: 20px;
+}
+
+.social-item {
+    width: 48%; 
+    text-align: center;
+}
+
+.social-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.social-img img {
+    width: 100%; 
+    height: 450px; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.divider {
+    height: 2px;
+    background-color: #ccc;
+    margin-bottom: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.contact-info {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-info .phone, .contact-info .email {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 10px;
+}
+.icon {
+    width: 24px; 
+    height: 24px; 
+    margin-right: 10px; 
+    vertical-align: middle; 
+}
