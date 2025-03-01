@@ -36,7 +36,7 @@ main {
     padding: 40px 20px;
 }
 
-.articles-heading h1 {
+.article h1 {
     font-size: 32px;
     font-weight: bold;
     text-align: center;
@@ -49,13 +49,13 @@ main {
     margin-bottom: 40px;
 }
 
-.articles-container {
+.articles {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.article-item {
+.items {
     display: flex;
     justify-content: flex-start; 
     align-items: center;
@@ -81,28 +81,6 @@ main {
     font-size: 18px;
     color: black;
     font-weight: bold;
-}
-
-
-@media (max-width: 768px) {
-    .articles-container {
-        align-items: center;
-    }
-
-    .article-item {
-        flex-direction: column; 
-        text-align: center;
-    }
-
-    .article-img img {
-        width: 80%; 
-        height: auto;
-    }
-
-    .article-text {
-        margin-top: 10px;
-        text-align: center;
-    }
 }
 
 footer {

@@ -71,7 +71,7 @@ main {
 .recipe-item {
     width: 30%;
     text-align: center;
-    word-wrap: break-word; /* Разрешаем разбивать длинные слова */
+    word-wrap: break-word; 
 }
 
 .recipe-item img {
@@ -88,25 +88,11 @@ main {
     color: #555;
 }
 
-.history p, .mission p, .values p {
+.history p, .mission p, .invite p {
     font-size: 20px; 
     max-width: 1200px;  
     line-height: 1.6;    
 }
-
-
-@media (max-width: 768px) {
-    .recipes-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .recipe-item {
-        width: 80%;
-        margin-bottom: 20px;
-    }
-}
-
 
 footer {
     margin-top: auto; 
