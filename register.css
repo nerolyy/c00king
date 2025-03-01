@@ -6,7 +6,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;  
+    height: 100vh;
+    
 }
 
 header {
@@ -48,7 +49,7 @@ main {
     position: relative;
 }
 
-.authcontainer {
+.reg {
     background-color: white;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -58,7 +59,7 @@ main {
     text-align: center;
 }
 
-.authcontainer h1 {
+.reg h1 {
     font-size: 24px;
     margin-bottom: 20px;
 }
@@ -75,14 +76,19 @@ main {
 }
 
 .input input {
-    width: 95%;
+    width: 100%;
     padding: 10px;
     font-size: 14px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
-.login-btn {
+.input input:focus {
+    border-color: #333;
+    outline: none;
+}
+
+.register-btn {
     width: 100%;
     padding: 12px;
     background-color: #333;
@@ -93,23 +99,25 @@ main {
     cursor: pointer;
 }
 
-.login-btn:hover {
+.register-btn:hover {
     background-color: #555;
 }
 
-.register p {
+
+.login {
     margin-top: 15px;
+}
+
+.login p {
     font-size: 14px;
 }
 
-.register a {
+.login a {
     color: #333;
     font-weight: bold;
     text-decoration: none;
 }
 
-.register a:hover {
+.login a:hover {
     text-decoration: underline;
 }
-
-
