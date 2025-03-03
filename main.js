@@ -1,8 +1,6 @@
 let currentIndex = 0;
 const images = [
-    'img/2c6b2f2811efd7b10a5f008d056de23f.jpg',
-    'img/bdaeb8589364882e0ae68721eb76085e.jpg', 
-    
+    'img/zmed-hero.jpg'
 ]
 
 const imgElement = document.querySelector('.recipe-image img');
