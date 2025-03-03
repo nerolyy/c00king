@@ -98,7 +98,7 @@ main {
 
 
 .large-block {
-    background-color: #ff94b3;
+    background-color: #e0e0e0;
     padding: 20px;
     border-radius: 8px;
     height: 600px; 
@@ -116,7 +116,15 @@ main {
 .large-block ul li {
     padding: 5px 0;
 }
-
+.large-block img{
+    justify-content: center;
+}
+.logotip{
+display: flex;
+justify-content: center; 
+align-items: center; 
+margin-top: 20px; 
+}
 
 .small-blocks {
     display: grid;
